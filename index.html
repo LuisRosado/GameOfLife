@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Vida Avanzado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game"></div>
+    <div class="controls">
+        <button onclick="toggleGame()">Iniciar/Pausar</button>
+        <button onclick="randomizeGrid()">Randomizar</button>
+        <button onclick="clearGrid()">Limpiar</button>
+        <button onclick="saveGrid()">Guardar</button>
+        <button onclick="loadGrid()">Cargar</button>
+        <label>
+            Velocidad:
+            <input type="range" id="speed" min="50" max="1000" value="200" step="50" oninput="changeSpeed(this.value)">
+        </label>
+        <label>
+            Tamaño del tablero:
+            <select id="size" onchange="changeSize(this.value)">
+                <option value="30">30x30</option>
+                <option value="50" selected>50x50</option>
+                <option value="70">70x70</option>
+            </select>
+        </label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
