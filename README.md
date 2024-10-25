@@ -12,6 +12,10 @@ El Juego de la Vida es un autómata celular desarrollado por el matemático brit
 - **Lógica del Juego**: Implementada en JavaScript para manejar las reglas del juego y la evolución de las células.
 - **Interactividad**: Permite al usuario iniciar, pausar y reiniciar el juego.
 
+![funciones](https://github.com/user-attachments/assets/c1987990-bebf-47df-8fed-8a99a650fdd7)
+
+![GL](https://github.com/user-attachments/assets/0fd538fc-97bf-4dda-9f06-6ecdd18a8394)
+
 ## Requisitos
 
 - Un navegador web moderno (Chrome, Firefox, Safari, etc.).
